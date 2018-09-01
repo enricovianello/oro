@@ -1,13 +1,13 @@
 <html>
 <head>
 <meta name="viewport"/>
-<title>Palestre Oro - Google Fusion Tables</title>
+<title>Palestre Rosse</title>
 <style type="text/css">
 html, body, #googft-mapCanvas {
-  height: 100%;
-  margin: 20;
+  height: 1024px;
+  margin: 0;
   padding: 0;
-  width: 100%;
+  width: 768px;
 }
 </style>
 
@@ -22,8 +22,8 @@ html, body, #googft-mapCanvas {
       viewport.setAttribute('content', 'initial-scale=1.0, user-scalable=no');
     }
     var mapDiv = document.getElementById('googft-mapCanvas');
-    mapDiv.style.width = isMobile ? '100%' : '500px';
-    mapDiv.style.height = isMobile ? '100%' : '300px';
+    mapDiv.style.width = isMobile ? '100%' : '1024px';
+    mapDiv.style.height = isMobile ? '100%' : '768px';
     var map = new google.maps.Map(mapDiv, {
       center: new google.maps.LatLng(44.98638949191924, 11.858195582647113),
       zoom: 11,
