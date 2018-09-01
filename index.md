@@ -1,14 +1,13 @@
-<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport"/>
 <title>Palestre Oro - Google Fusion Tables</title>
 <style type="text/css">
 html, body, #googft-mapCanvas {
-  height: 300px;
-  margin: 0;
+  height: 100%;
+  margin: 20;
   padding: 0;
-  width: 500px;
+  width: 100%;
 }
 </style>
 
